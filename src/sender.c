@@ -13,7 +13,7 @@
 #include "file_utils.h"
 
 // Addresses
-#define FILTER "udp and dst port 50050"
+#define FILTER CONSTRUCT_FILTER(SENDER_PORT)
 
 uint8_t src_eth_mac_address[6] = { 0x74, 0xe6, 0xe2, 0x1c, 0xdf, 0x7c };
 uint8_t src_eth_ip_address[4] = { 192, 168, 0, 101 };

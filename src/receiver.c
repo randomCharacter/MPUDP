@@ -11,7 +11,7 @@
 #include "file_utils.h"
 #include "packet/packet.h"
 
-#define FILTER "udp and dst port 50055"
+#define FILTER CONSTRUCT_FILTER(RECEIVER_PORT)
 
 pcap_if_t *wifi_device;
 pcap_if_t *eth_device;
