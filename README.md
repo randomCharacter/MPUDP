@@ -1,4 +1,4 @@
-# Gomoku
+# Multipath UDP
 Projekat iz predmeta ORM2
 
 ## Kratko uputstvo
